@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #040d12;
+}
+
+ul,
+li,
+button,
+h2,
+p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #eeedeb;
+  text-decoration: none;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 20px;
+}
+
+.logo {
+  cursor: pointer;
+  height: 100px;
+}
+
+ul li a {
+  color: #eeedeb;
+  transition: 0.3s ease 0s;
+}
+
+ul li a:hover {
+  color: #19a7ce;
+}
+
+button {
+  background-color: #001c30;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: #19a7ce;
+}
+
+.contentparent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#about,
+#guide,
+#equip {
+  flex: 1;
+}
+
+.q1,
+.q2,
+.q3 {
+  font-size: 2.5rem;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.text1,
+.text2,
+.text3 {
+  font-size: 1rem;
+  text-align: center;
+  text-wrap: wrap;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+ol {
+  list-style: inside;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.fisherman,
+.book,
+.tool {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50px;
+}
+
+.ft2 {
+  font-weight: normal;
+}
